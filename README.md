@@ -1,14 +1,10 @@
-# Offer Generator V1.0
-
-Streamlit app to generate quotations:
-- Enter part numbers + quantities (PN,Qty per line).
-- Looks up price from PL102025.xlsx (USD/EUR blocks).
-- Auto-fills Word template (quotation_templateR.docx).
-- Logs offers in offer_log.xlsx.
-- Manages customers in customers.xlsx.
-
-## Run locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+---
+title: Offer Generator
+emoji: 📄
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: "1.25.0"
+app_file: app.py
+pinned: false
+---
